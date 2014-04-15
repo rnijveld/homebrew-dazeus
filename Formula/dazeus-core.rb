@@ -1,11 +1,12 @@
 require "formula"
 
 class DazeusCore < Formula
-  homepage "https://github.com/dazeus/dazeus-core"
+  homepage "http://dazeus.org/"
 
   head 'https://github.com/dazeus/dazeus-core.git'
 
   depends_on 'cmake' => :build
+  depends_on 'boost'
   depends_on 'libircclient'
   depends_on 'libmongo-client'
 
