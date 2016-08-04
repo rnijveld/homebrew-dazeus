@@ -3,7 +3,7 @@ require "formula"
 class Libircclient < Formula
   homepage "http://sourceforge.net/projects/libircclient/"
   url "http://downloads.sourceforge.net/project/libircclient/libircclient/1.8/libircclient-1.8.tar.gz"
-  sha1 "dda7df9fd9239542d295759033d7b518f0b3efd9"
+  sha256 "2cf8523ac683588f2785b08159a2df3e4d15939ee655c0024aa86334149de8f6"
 
   depends_on 'openssl'
   
